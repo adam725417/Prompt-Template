@@ -34,7 +34,10 @@ export function usePrompts() {
   const [recentCopies, setRecentCopies] = useState(() => loadFromStorage(RECENT_KEY, []))
 
   useEffect(() => {
-    const url = import.meta.env.BASE_URL + 'data/prompts.json'
+    const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
+      ? import.meta.env.BASE_URL 
+      : import.meta.env.BASE_URL + '/'
+    const url = `${baseUrl}data/prompts.json`
     fetch(url)
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
