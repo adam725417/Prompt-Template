@@ -1,0 +1,499 @@
+[
+  {
+    "id": "01",
+    "title": "產品攝影 — 乾淨白背景",
+    "category": "商業攝影風",
+    "tags": ["產品攝影", "白背景", "電商主圖", "商業"],
+    "prompt": "[產品名稱], product photography, clean white background, soft studio lighting, professional commercial photo, centered composition, subtle shadow, 8K, high detail --ar 1:1 --v 7",
+    "variables": [
+      { "key": "產品名稱", "example": "藍牙耳機" }
+    ],
+    "useCase": "電商主圖",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "適合商品白底主圖，建議搭配簡單品名替換。多跑幾次可以得到不同角度的展示效果。"
+  },
+  {
+    "id": "02",
+    "title": "生活感產品 — 場景化",
+    "category": "商業攝影風",
+    "tags": ["場景攝影", "生活風格", "社群貼文", "電商"],
+    "prompt": "[產品名稱] placed on [場景描述], lifestyle photography, natural daylight, warm tones, editorial style, bokeh background, 85mm lens, shallow depth of field, magazine quality --ar 4:5 --v 7",
+    "variables": [
+      { "key": "產品名稱", "example": "手沖咖啡壺" },
+      { "key": "場景描述", "example": "wooden kitchen counter with herbs" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "4:5",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "場景描述建議用英文，效果更好。可嘗試不同場景如辦公桌、戶外草地、大理石桌面等。"
+  },
+  {
+    "id": "03",
+    "title": "食物攝影 — 俯拍角度",
+    "category": "商業攝影風",
+    "tags": ["食物攝影", "俯拍", "美食", "電商主圖"],
+    "prompt": "[食物名稱], overhead flat lay food photography, rustic wooden table, fresh ingredients scattered around, soft natural light from left, warm color grading, food magazine style, appetizing, high detail --ar 1:1 --v 7",
+    "variables": [
+      { "key": "食物名稱", "example": "義大利麵配羅勒醬" }
+    ],
+    "useCase": "電商主圖",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "適合餐廳菜單、美食電商平台。建議搭配真實食物名稱（英文效果更佳）。"
+  },
+  {
+    "id": "04",
+    "title": "美妝保養品 — 質感特寫",
+    "category": "商業攝影風",
+    "tags": ["美妝", "保養品", "質感", "高端商業"],
+    "prompt": "[產品名稱], luxury beauty product photography, marble surface, water droplets, soft pink and gold tones, close-up macro shot, elegant lighting, high-end commercial, glossy texture, 8K --ar 4:5 --v 7 --style raw",
+    "variables": [
+      { "key": "產品名稱", "example": "玫瑰精華液" }
+    ],
+    "useCase": "電商主圖",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "4:5",
+    "hasStyleRaw": true,
+    "difficulty": "intermediate",
+    "notes": "--style raw 可讓畫面更真實，適合高端品牌。可嘗試替換不同的桌面材質（木紋、布料）。"
+  },
+  {
+    "id": "05",
+    "title": "科技產品 — 暗色調",
+    "category": "商業攝影風",
+    "tags": ["科技", "暗色調", "3C", "品牌視覺"],
+    "prompt": "[科技產品名稱], dark moody product photography, dramatic rim lighting, black gradient background, subtle blue accent light, reflective surface, tech product commercial, cinematic, ultra detailed --ar 16:9 --v 7",
+    "variables": [
+      { "key": "科技產品名稱", "example": "電競滑鼠" }
+    ],
+    "useCase": "品牌視覺",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "16:9",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "適合電子產品、3C 配件。暗色調帶來科技感與高端質感，適合 Banner 橫幅設計。"
+  },
+  {
+    "id": "06",
+    "title": "人像 — 企業形象照",
+    "category": "商業攝影風",
+    "tags": ["人像", "企業形象", "LinkedIn", "專業"],
+    "prompt": "Professional corporate headshot of [人物描述], wearing [服裝], confident smile, clean neutral background, soft key light with fill light, 50mm portrait lens, sharp focus on eyes, LinkedIn style, professional photography --ar 3:4 --v 7",
+    "variables": [
+      { "key": "人物描述", "example": "Asian woman in her 30s" },
+      { "key": "服裝", "example": "navy blue blazer" }
+    ],
+    "useCase": "品牌視覺",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "3:4",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "建議用英文描述人物特徵。適合企業官網、個人品牌頁面。多試幾次直到表情自然為止。"
+  },
+  {
+    "id": "07",
+    "title": "空間 — 室內設計展示",
+    "category": "商業攝影風",
+    "tags": ["室內設計", "空間", "建築攝影", "居家"],
+    "prompt": "[空間風格] interior design, [房間類型], architectural photography, natural daylight streaming in, high ceiling, warm wood accents, plants, editorial interior magazine style, wide angle lens, 4K --ar 16:9 --v 7",
+    "variables": [
+      { "key": "空間風格", "example": "Japandi minimalist" },
+      { "key": "房間類型", "example": "living room" }
+    ],
+    "useCase": "室內設計",
+    "recommendedTools": ["Midjourney", "Recraft"],
+    "aspectRatio": "16:9",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "風格可選：Scandinavian、Japandi、Industrial、Modern、Wabi-sabi。適合房仲、設計公司官網。"
+  },
+  {
+    "id": "08",
+    "title": "活動 — 品牌氛圍照",
+    "category": "商業攝影風",
+    "tags": ["活動", "品牌", "氛圍", "戶外"],
+    "prompt": "[活動場景描述], event photography, candid moments, warm ambient lighting, bokeh string lights in background, golden hour, lifestyle brand aesthetic, authentic and natural feeling, 35mm lens --ar 3:2 --v 7",
+    "variables": [
+      { "key": "活動場景描述", "example": "outdoor brand pop-up market with happy customers" }
+    ],
+    "useCase": "活動海報",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "3:2",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "金色光線氛圍適合品牌暖色調。可加入人物互動描述讓畫面更生動自然。"
+  },
+  {
+    "id": "09",
+    "title": "科技概念插畫",
+    "category": "扁平插畫風",
+    "tags": ["插畫", "科技", "UI配圖", "向量風"],
+    "prompt": "Flat design illustration of [主題], modern minimalist style, geometric shapes, limited color palette of [2-3色], clean lines, no outlines, white background, vector art aesthetic, suitable for tech startup website --ar 16:9 --v 7",
+    "variables": [
+      { "key": "主題", "example": "cloud data synchronization" },
+      { "key": "2-3色", "example": "indigo, mint green, and coral" }
+    ],
+    "useCase": "UI配圖",
+    "recommendedTools": ["Midjourney", "Recraft"],
+    "aspectRatio": "16:9",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "限定色彩數量是關鍵，讓畫面更統一乾淨。Recraft 對向量風格支援特別好，可直接匯出 SVG。"
+  },
+  {
+    "id": "10",
+    "title": "人物角色插畫",
+    "category": "扁平插畫風",
+    "tags": ["角色設計", "插畫", "UI配圖", "可愛風"],
+    "prompt": "Cute flat illustration of a [人物描述] [doing 動作], simple shapes, pastel colors, friendly and approachable, Notion style illustration, soft rounded corners, minimal detail, cheerful mood --ar 1:1 --v 7",
+    "variables": [
+      { "key": "人物描述", "example": "female designer" },
+      { "key": "doing 動作", "example": "working on a laptop with a coffee mug" }
+    ],
+    "useCase": "UI配圖",
+    "recommendedTools": ["Midjourney", "Recraft"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "Notion style 可換成 Dribbble style 或 Mailchimp style 試試不同插畫風格。"
+  },
+  {
+    "id": "11",
+    "title": "等距 Isometric 插畫",
+    "category": "扁平插畫風",
+    "tags": ["等距", "插畫", "UI配圖", "資訊圖表"],
+    "prompt": "Isometric illustration of [場景描述], clean 3D isometric view, flat shading, vibrant but harmonious colors, detailed miniature scene, digital art, suitable for infographic, white background --ar 1:1 --v 7",
+    "variables": [
+      { "key": "場景描述", "example": "a cozy home office with plants, books and computer" }
+    ],
+    "useCase": "UI配圖",
+    "recommendedTools": ["Midjourney", "Recraft"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "等距視角非常適合 App 截圖說明、功能介紹頁。場景越具體，生成效果越好。"
+  },
+  {
+    "id": "12",
+    "title": "品牌吉祥物設計",
+    "category": "扁平插畫風",
+    "tags": ["吉祥物", "品牌", "角色設計", "插畫"],
+    "prompt": "Flat vector mascot character of [角色描述], brand mascot design, simple geometric shapes, bold outlines, friendly expression, [品牌色] color palette, clean and memorable, white background, logo-ready design --ar 1:1 --v 7",
+    "variables": [
+      { "key": "角色描述", "example": "a small fox holding a paintbrush" },
+      { "key": "品牌色", "example": "warm orange and cream" }
+    ],
+    "useCase": "品牌視覺",
+    "recommendedTools": ["Midjourney", "Recraft"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "多跑幾次選最滿意的版本，也可加入 front view, side view 要求不同角度。"
+  },
+  {
+    "id": "13",
+    "title": "Clay 黏土風 3D",
+    "category": "3D 渲染風",
+    "tags": ["3D", "黏土風", "可愛", "產品展示"],
+    "prompt": "3D clay render of [物件描述], soft matte material, rounded edges, pastel [顏色] color, studio lighting, clean background, playful and cute, Pixar style, high quality render, octane render --ar 1:1 --v 7",
+    "variables": [
+      { "key": "物件描述", "example": "smartphone with app icons floating around it" },
+      { "key": "顏色", "example": "pink" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "Clay render 近年非常流行，適合科技品牌軟化品牌形象。顏色建議選用品牌主色。"
+  },
+  {
+    "id": "14",
+    "title": "玻璃質感 Glassmorphism",
+    "category": "3D 渲染風",
+    "tags": ["3D", "玻璃", "未來感", "UI配圖"],
+    "prompt": "3D glass [物件描述], transparent glossy material, frosted glass effect, iridescent reflections, colorful gradient background, floating in space, depth of field, studio lighting, futuristic aesthetic --ar 1:1 --v 7",
+    "variables": [
+      { "key": "物件描述", "example": "credit card with holographic surface" }
+    ],
+    "useCase": "UI配圖",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "搭配漸層背景效果最佳。可用於 Fintech、Web3、科技新創品牌的視覺設計。"
+  },
+  {
+    "id": "15",
+    "title": "金屬質感產品 3D",
+    "category": "3D 渲染風",
+    "tags": ["3D", "金屬", "質感", "產品展示"],
+    "prompt": "Photorealistic 3D render of [產品描述], brushed [金屬材質] metal material, sharp reflections, dark studio background, dramatic product lighting, floating composition, high-end commercial render, 8K --ar 4:5 --v 7",
+    "variables": [
+      { "key": "產品描述", "example": "luxury pen" },
+      { "key": "金屬材質", "example": "stainless steel" }
+    ],
+    "useCase": "產品展示",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "4:5",
+    "hasStyleRaw": false,
+    "difficulty": "advanced",
+    "notes": "金屬材質可選：gold、silver、copper、chrome。適合珠寶、高端配件、精品品牌。"
+  },
+  {
+    "id": "16",
+    "title": "吉卜力風景",
+    "category": "日系動漫風",
+    "tags": ["吉卜力", "動漫", "風景", "水彩"],
+    "prompt": "[場景描述], Studio Ghibli style, hand-painted watercolor texture, lush green nature, puffy clouds, warm afternoon light, peaceful and nostalgic atmosphere, anime landscape, high detail, 4K --ar 16:9 --v 7 --style raw",
+    "variables": [
+      { "key": "場景描述", "example": "a small village by the sea with flower fields" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "16:9",
+    "hasStyleRaw": true,
+    "difficulty": "beginner",
+    "notes": "--style raw 對吉卜力風格效果更自然。場景描述越有詩意，效果越好。適合桌布、社群貼文。"
+  },
+  {
+    "id": "17",
+    "title": "新海誠風光影",
+    "category": "日系動漫風",
+    "tags": ["新海誠", "動漫", "光影", "電影感"],
+    "prompt": "[場景描述], Makoto Shinkai style, dramatic lighting, lens flare, ultra detailed clouds, vibrant sky gradient, cinematic composition, anime digital painting, atmospheric, breathtaking, 8K --ar 16:9 --v 7",
+    "variables": [
+      { "key": "場景描述", "example": "a train station platform at golden hour with warm light" }
+    ],
+    "useCase": "品牌視覺",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "16:9",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "光影描述越具體越好，如 golden hour、blue hour、after rain 都能帶來不同氛圍。"
+  },
+  {
+    "id": "18",
+    "title": "賽璐璐動漫角色",
+    "category": "日系動漫風",
+    "tags": ["動漫", "角色", "賽璐璐", "插畫"],
+    "prompt": "[角色描述], anime illustration, cel shading style, clean line art, vibrant colors, expressive eyes, [髮色] hair, dynamic pose, manga aesthetic, professional anime artwork --ar 3:4 --v 7 --style raw",
+    "variables": [
+      { "key": "角色描述", "example": "teenage girl in school uniform" },
+      { "key": "髮色", "example": "silver" }
+    ],
+    "useCase": "品牌視覺",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "3:4",
+    "hasStyleRaw": true,
+    "difficulty": "intermediate",
+    "notes": "賽璐璐風格對動漫角色還原度很高。建議在 niji 模式下嘗試（--niji 6）。"
+  },
+  {
+    "id": "19",
+    "title": "70 年代復古海報",
+    "category": "復古風 / 膠片風",
+    "tags": ["復古", "海報", "70年代", "活動海報"],
+    "prompt": "[主題描述], 1970s retro poster design, groovy typography, warm orange and brown palette, sun-faded colors, vintage paper texture, psychedelic elements, screen print aesthetic --ar 3:4 --v 7",
+    "variables": [
+      { "key": "主題描述", "example": "summer music festival in the mountains" }
+    ],
+    "useCase": "活動海報",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "3:4",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "可加入 band name、event name 等文字描述，但 AI 生成的文字可能仍需後製處理。"
+  },
+  {
+    "id": "20",
+    "title": "35mm 膠片風",
+    "category": "復古風 / 膠片風",
+    "tags": ["膠片", "底片", "復古", "人像"],
+    "prompt": "[場景描述], shot on Kodak Portra 400 film, 35mm photography, analog grain, soft warm tones, slightly overexposed, candid moment, natural light, nostalgic feeling, raw and authentic --ar 3:2 --v 7 --style raw",
+    "variables": [
+      { "key": "場景描述", "example": "young woman reading in a sunlit cafe" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "3:2",
+    "hasStyleRaw": true,
+    "difficulty": "beginner",
+    "notes": "可替換底片品牌：Fuji Superia、Lomography、Agfa Vista。每款底片有獨特色調。"
+  },
+  {
+    "id": "21",
+    "title": "復古雜誌廣告風",
+    "category": "復古風 / 膠片風",
+    "tags": ["復古", "廣告", "雜誌", "品牌"],
+    "prompt": "[產品或主題描述], 1950s vintage magazine advertisement style, classic illustration, muted tones with pop color accents, retro typography layout, decorative borders, mid-century commercial art, nostalgic --ar 3:4 --v 7",
+    "variables": [
+      { "key": "產品或主題描述", "example": "vintage cola bottle with happy family" }
+    ],
+    "useCase": "品牌視覺",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "3:4",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "年代可調整：1920s Art Deco、1940s wartime、1960s mod style。適合懷舊品牌行銷。"
+  },
+  {
+    "id": "22",
+    "title": "北歐風靜物",
+    "category": "極簡 / 北歐風",
+    "tags": ["北歐", "極簡", "靜物", "質感"],
+    "prompt": "[物件描述], Scandinavian minimalist style, muted earth tones, clean composition, lots of negative space, natural materials, soft diffused daylight, hygge atmosphere, editorial photography --ar 4:5 --v 7 --style raw",
+    "variables": [
+      { "key": "物件描述", "example": "ceramic coffee mug, linen cloth, dried flowers and a book" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "4:5",
+    "hasStyleRaw": true,
+    "difficulty": "beginner",
+    "notes": "Hygge 是北歐「舒適感」哲學。自然材質、木頭、陶器、亞麻布都是關鍵元素。"
+  },
+  {
+    "id": "23",
+    "title": "日式侘寂風",
+    "category": "極簡 / 北歐風",
+    "tags": ["侘寂", "日式", "極簡", "空間"],
+    "prompt": "[場景或物件描述], wabi-sabi aesthetic, imperfect beauty, aged textures, weathered surfaces, soft neutral tones, asymmetric composition, zen minimalism, Japanese aesthetic, film photography style --ar 4:5 --v 7 --style raw",
+    "variables": [
+      { "key": "場景或物件描述", "example": "old clay teapot on mossy stone with fallen leaves" }
+    ],
+    "useCase": "品牌視覺",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "4:5",
+    "hasStyleRaw": true,
+    "difficulty": "intermediate",
+    "notes": "侘寂美學強調不完美、不恆久、不完整。適合有機、手作、天然品牌視覺。"
+  },
+  {
+    "id": "24",
+    "title": "社群 Quote 背景",
+    "category": "品牌社群風",
+    "tags": ["社群", "背景", "引言", "IG貼文"],
+    "prompt": "Abstract gradient background, smooth flowing shapes in [品牌色1] and [品牌色2], soft blur, dreamy atmosphere, suitable as text overlay background, modern and clean, Instagram post style --ar 1:1 --v 7",
+    "variables": [
+      { "key": "品牌色1", "example": "deep purple" },
+      { "key": "品牌色2", "example": "electric blue" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney", "Firefly", "Recraft"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "生成後在 Canva 上疊加文字即可。可加入 bokeh、light flare 等元素增加層次感。"
+  },
+  {
+    "id": "25",
+    "title": "限動互動模板背景",
+    "category": "品牌社群風",
+    "tags": ["限時動態", "IG限動", "互動", "直式"],
+    "prompt": "Vertical Instagram story background, playful [風格] pattern, [品牌色] accent colors, large empty space in center for text overlay, fun and engaging, modern design, subtle texture --ar 9:16 --v 7",
+    "variables": [
+      { "key": "風格", "example": "confetti and stars" },
+      { "key": "品牌色", "example": "coral pink" }
+    ],
+    "useCase": "限時動態",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "9:16",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "中間留白是讓使用者加入文字問答或互動元素的空間。適合品牌小測驗、調查限動。"
+  },
+  {
+    "id": "26",
+    "title": "飲品特寫 — 咖啡拉花",
+    "category": "商業攝影風",
+    "tags": ["飲品", "咖啡", "特寫", "餐飲"],
+    "prompt": "[飲品名稱], close-up beverage photography, beautiful latte art on top, steam rising gently, dark moody cafe background, warm golden rim light, bokeh ambiance, 85mm macro lens, high detail, magazine quality --ar 4:5 --v 7 --style raw",
+    "variables": [
+      { "key": "飲品名稱", "example": "flat white coffee" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney", "Firefly"],
+    "aspectRatio": "4:5",
+    "hasStyleRaw": true,
+    "difficulty": "beginner",
+    "notes": "適合咖啡廳、手搖飲、餐廳社群經營。可將飲品名稱換成任何飲料，效果都很好。"
+  },
+  {
+    "id": "27",
+    "title": "數位 UI 介面插畫",
+    "category": "扁平插畫風",
+    "tags": ["UI", "介面", "插畫", "App"],
+    "prompt": "Flat illustration of a [裝置類型] showing [App介面描述], modern UI design mockup, clean flat style, soft gradient background in [主色調], floating device, subtle shadow, professional app showcase, white background --ar 16:9 --v 7",
+    "variables": [
+      { "key": "裝置類型", "example": "smartphone" },
+      { "key": "App介面描述", "example": "a fitness tracking dashboard with charts" },
+      { "key": "主色調", "example": "purple and mint" }
+    ],
+    "useCase": "UI配圖",
+    "recommendedTools": ["Midjourney", "Recraft"],
+    "aspectRatio": "16:9",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "適合 SaaS 產品官網、App Store 截圖說明。Recraft 可直接產生可編輯向量版本。"
+  },
+  {
+    "id": "28",
+    "title": "夢幻泡泡 3D 場景",
+    "category": "3D 渲染風",
+    "tags": ["3D", "泡泡", "夢幻", "社群"],
+    "prompt": "3D render of [場景或物件], surrounded by floating iridescent soap bubbles, soft pastel dreamy atmosphere, volumetric light rays, bokeh background in [背景色], photorealistic render, magical and whimsical mood --ar 1:1 --v 7",
+    "variables": [
+      { "key": "場景或物件", "example": "a tiny house on a mossy rock" },
+      { "key": "背景色", "example": "lavender and peach gradient" }
+    ],
+    "useCase": "社群貼文",
+    "recommendedTools": ["Midjourney"],
+    "aspectRatio": "1:1",
+    "hasStyleRaw": false,
+    "difficulty": "intermediate",
+    "notes": "夢幻泡泡場景非常適合美妝、保養、兒童品牌的社群視覺。多跑幾次挑選泡泡分布最好的版本。"
+  },
+  {
+    "id": "29",
+    "title": "品牌封面 Banner",
+    "category": "品牌社群風",
+    "tags": ["Banner", "封面", "品牌", "橫幅"],
+    "prompt": "Wide banner design background, [風格描述] aesthetic, [品牌色1] to [品牌色2] gradient flow, abstract organic shapes, professional and modern, empty center space for logo and text, horizontal composition, high resolution --ar 16:9 --v 7",
+    "variables": [
+      { "key": "風格描述", "example": "bold and energetic" },
+      { "key": "品牌色1", "example": "deep navy" },
+      { "key": "品牌色2", "example": "electric cyan" }
+    ],
+    "useCase": "Banner",
+    "recommendedTools": ["Midjourney", "Firefly", "Recraft"],
+    "aspectRatio": "16:9",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "適合 Facebook 封面、YouTube 頻道橫幅、官網 Hero 背景。生成後在 Canva 疊加文字效果最佳。"
+  },
+  {
+    "id": "30",
+    "title": "極簡幾何海報",
+    "category": "極簡 / 北歐風",
+    "tags": ["極簡", "幾何", "海報", "活動"],
+    "prompt": "Minimalist geometric poster design, [形狀元素] composition, muted [色調] color palette, lots of white space, elegant Swiss style typography layout, clean grid-based design, modern art print aesthetic --ar 2:3 --v 7",
+    "variables": [
+      { "key": "形狀元素", "example": "overlapping circles and thin lines" },
+      { "key": "色調", "example": "terracotta and cream" }
+    ],
+    "useCase": "活動海報",
+    "recommendedTools": ["Midjourney", "Recraft"],
+    "aspectRatio": "2:3",
+    "hasStyleRaw": false,
+    "difficulty": "beginner",
+    "notes": "瑞士風格設計（Swiss Style）以格線與留白著稱。適合展覽、講座、品牌活動海報，文字需後製加入。"
+  }
+]
